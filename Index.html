@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy New Year Wishes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Ops+One&family=Rubik+Bubbles&family=Rubik+Doodle+Triangles&family=Silkscreen&family=Tiro+Devanagari+Hindi:ital@1&display=swap" rel="stylesheet">
+    
+    <style>
+    body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    color:red;
+    Background-color:#FFFF00 ;
+    Overflow :hidden ;
+    }
+  animation-container {
+      position: relative;
+      width: 100% ;
+      height: 100px ;
+      overflow: hidden;
+      Z-index :-1 ;
+      
+     Background-color :green ;
+    }
+
+    .circle {
+      position: absolute;
+      border-radius: 50%;
+      animation: pulse 3s linear infinite;
+      Z-index :-1 ;
+    }
+
+    @keyframes pulse {
+      0% {
+        transform: scale(0);
+        opacity: 0;
+      }
+      50% {
+        transform: scale(1);
+        opacity: 1;
+      }
+      100% {
+        transform: scale(2);
+        opacity: 0;
+      }
+    }
+  
+    .container{
+    /*background-color:red;*/
+    position:relative;
+    width:100%;
+    height:100%;
+    }
+    /*
+    #topBanner,
+    #bottomBanner {
+    width: 100%;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px 0px;
+    margin-bottom: 0px;
+    
+    }
+   */
+   .text3D {
+   /*position: relative;*/
+   display: inline-block;
+   font-size: 2.5em;
+   color: yellow;
+   white-space: nowrap;
+   transform-style: preserve-3d;
+   animation: rotateText 5s linear infinite;
+   text-align:center;
+   margin:11px 0px;
+   Font-family :'Black Ops One',sans-serif ;
+   }
+   
+   @keyframes rotateText {
+   0% {
+   color: #3498db;
+   text-shadow:
+   2px 2px 0 #3498db,
+   -1px -1px 0 #e74c3c,
+   1px -1px 0 #e74c3c,
+   -1px 1px 0 #e74c3c,
+   1px 1px 0 #e74c3c;
+   transform: rotateY(0deg);
+   }
+   25% {
+   color: #e74c3c;
+   text-shadow:
+   2px 2px 0 #e74c3c,
+   -1px -1px 0 #27ae60,
+   1px -1px 0 #27ae60,
+   -1px 1px 0 #27ae60,
+   1px 1px 0 #27ae60;
+   transform: rotateY(90deg);
+   }
+   50% {
+   color: #27ae60;
+   text-shadow:
+   2px 2px 0 #27ae60,
+   -1px -1px 0 #f39c12,
+   1px -1px 0 #f39c12,
+   -1px 1px 0 #f39c12,
+   1px 1px 0 #f39c12;
+   transform: rotateY(45deg);
+   }
+   75% {
+   color: #f39c12;
+   text-shadow:
+   2px 2px 0 #f39c12,
+   -1px -1px 0 #3498db,
+   1px -1px 0 #3498db,
+   -1px 1px 0 #3498db,
+   1px 1px 0 #3498db;
+   transform: rotateY(-90deg);
+   }
+   100% {
+   color: #3498db;
+   text-shadow:
+   2px 2px 0 #3498db,
+   -1px -1px 0 #e74c3c,
+   1px -1px 0 #e74c3c,
+   -1px 1px 0 #e74c3c,
+   1px 1px 0 #e74c3c;
+   transform: rotateY(0deg);
+   }
+   }
+    .main-div{
+    /*background-color:red;*/
+    text-align:center;
+    
+    }
+  /* .a{
+   animation: breathe 4s infinite alternate;
+   }
+   
+  
+ @keyframes breathe{
+ 0% {
+ transform: scale(1);
+ color: #3498db;
+ }
+ 100% {
+ transform: scale(1.2);
+ color: #e74c3c;
+ }
+ }*/
+ #p1{
+ font-size:20px;
+ font-weight:bold;
+ }
+
+#inputValue{
+width:60%;
+height:40px;
+margin:10px;
+background-color:red;
+border:none;
+border-radius:5px;
+font-weight:bold;
+color:white;
+padding:0px 10px;
+
+}
+::placeholder{
+color:white;
+}
+
+button{
+background-color:;
+width:20%;
+height:40px;
+margin:0px 0px 0px 0px;
+border:none;
+border-radius:5px;
+
+}
+
+#H1{
+text-shadow:
+   2px 2px 0 #3498db,
+   -1px -1px 0 #e74c3c,
+   1px -1px 0 #e74c3c,
+   -1px 1px 0 #e74c3c,
+   1px 1px 0 #e74c3c;
+   font-size:25px;
+   padding:0;
+   Font-family :'Rubik Doodle Triangles',sans-serif;
+   margin:10px;
+   animation: happy 5s linear infinite;
+}
+
+
+
+
+@keyframes happy{
+0%{
+color:red;
+}
+25%{
+color:green;
+}
+50%{
+color:yellow;
+}
+75%{
+color:blue;
+}
+100%{
+color:red;
+}
+
+
+
+
+}
+.a{
+padding:0;
+margin:13px;
+}
+#timer{
+background-color:;
+color:black ;
+font-weight:bold;
+text-transform:uppercase;
+Font-family :'Bebas Neue',sans-serif ;
+}
+
+#a{
+color:white;
+font-size:20px;
+margin:10px;
+animation:w 5s linear infinite;
+font-weight:bold;
+}
+@keyframes w{
+0%{
+color:green ;
+}
+50%{
+color:yellow ;
+}
+100%{
+color:green ;
+}
+}
+
+span{
+color:black ;
+}
+
+
+
+/*.ads style*/
+.gallery-container {
+            overflow-x: hidden;
+            white-space: nowrap;
+            width: 100%;
+            padding: 0px;
+            position: relative;
+            height:100%;
+            background-color:white ;
+        }
+
+        .gallery-item {
+            display: inline-block;
+            margin: 0px;
+        }
+
+        .gallery-item img {
+            width: 50px; /* Adjust the width as needed */
+            height:50px;
+            
+        }
+
+
+
+.gallery-containerr {
+            overflow-x: hidden;
+            white-space: nowrap;
+            width: 100%;
+            padding: 0px;
+            position: relative;
+            height:100%;
+            background-color:white ;
+        }
+
+        .gallery-itemm {
+            display: inline-block;
+            margin: 0px;
+        }
+
+        .gallery-itemm img {
+            width: 50px; /* Adjust the width as needed */
+            height: 50px ;
+            
+        }
+
+#Gift{
+  Font-size :;
+  Font-weight :bold ;
+  Color :black ;
+  Margin-left:5px ;
+  Font-family :'SilkScreen',sans-serif ;
+    
+}
+
+#pf{
+    
+    Font-family :'Tiro Devanagari Hindi',sans-serif ;
+    
+}
+
+#days{
+    Color :red;
+}
+    </style>
+    
+</head>
+<body>
+    
+ 
+  <div class="container">
+       <!-- Top Banner Ad -->
+       <!--<div id="topBanner">
+       <p>Top Banner Ad Content</p>
+       </div> -->
+      <spam id="Gift">Best Gift for a Loved One </spam>
+      <div class="gallery-containerr" id="auto-scroll-containerr">
+
+ <div class="gallery-itemm">
+        <a href="https://amzn.to/3RKVFSr "><img src="https://drive.google.com/uc?id=1__u4ZEN3rXdLRRlUPgdxsMmn7YR7-0-v" alt="Image 1"></a>
+    </div>
+<div class="gallery-itemm">
+        <a href=" https://amzn.to/41pnzqi"><img src="https://drive.google.com/uc?id=1_a15OeaLsCpxTsbJXYl25iRkvzFuVyOW" alt="Image 2"></a>
+    </div>
+<div class="gallery-itemm">
+        <a href=" https://amzn.to/3ts90ph"><img src="https://drive.google.com/uc?id=1__sJ2GLyMAV9ADVoNc6NaYCN9lHi7-Ii " alt="Image 3"></a>
+    </div>
+<div class="gallery-itemm">
+        <a href=" https://amzn.to/41y8ov1"><img src="https://drive.google.com/uc?id=1_ZokGDL7V6WIhQQjTKQoKyDSs3SU8VcJ" alt="Image 4"></a>
+    </div>
+<div class="gallery-itemm">
+        <a href="https://amzn.to/3Rlp44e "><img src="https://drive.google.com/uc?id=1_Yn3kWnqvvb5od_tHw9x6u2zCjevTnBf " alt="Image 5"></a>
+    </div>
+<div class="gallery-itemm">
+        <a href="https://amzn.to/3RpFSqS "><img src="https://drive.google.com/uc?id=1_XeCvAtTcbsCS2U1J0GCf2v3NHTS5CPg " alt="Image 6"></a>
+    </div>
+<div class="gallery-itemm">
+        <a href="https://amzn.to/3TnWKAU "><img src="https://drive.google.com/uc?id=1_MKwN-0HZfAiT_oKiS9_Zhn-vFwToGPY " alt="Image 7"></a>
+    </div>
+<div class="gallery-itemm">
+        <a href=" https://amzn.to/3GKAfOT"><img src="https://drive.google.com/uc?id=1_Ehs_BTcFNbZuAuh011Kbu4Q4jBCL_DX " alt="Image 8"></a>
+    </div>
+<div class="gallery-itemm">
+        <a href="https://amzn.to/48nl0HM "><img src="https://drive.google.com/uc?id=1_CWXeesC_clOYPmTwhUU4qnZvRcMO1xu " alt="Image 9"></a>
+    </div>
+<div class="gallery-itemm">
+        <a href="https://amzn.to/3v3iQi2"><img src="https://drive.google.com/uc?id=1_A3Oode9GCQ4_QuT0r_dqAcmGqq6PEea " alt="Image 10"></a>
+    </div>
+<div class="gallery-itemm">
+        <a href="https://amzn.to/3GMoNT1 "><img src="https://drive.google.com/uc?id=1_3KUQPWBnMZB-NflcP85EkpE64M0klxA " alt="Image 11"></a>
+    </div>
+<div class="gallery-itemm">
+        <a href="https://amzn.to/3H68QYd"><img src="https://drive.google.com/uc?id=1Yr989g1rFsLvggXG_9FDODnIUdbzidWl" alt="Image 12"></a>
+    </div>
+<div class="gallery-itemm">
+        <a href="https://amzn.to/473BXFO "><img src="https://drive.google.com/uc?id=1Zhd0Xb_bN2Yk_kXBGS0sJ2IBZPmUw1xc " alt="Image 13"></a>
+    </div>
+<div class="gallery-itemm">
+        <a href="https://amzn.to/46Wz0XG "><img src="https://drive.google.com/uc?id=1ZZZSkdMcXX4eRgILaSr4VhlReMPB9qwj " alt="Image 14"></a>
+    </div>
+<div class="gallery-itemm">
+        <a href=" https://amzn.to/41tA58s"><img src="https://drive.google.com/uc?id=1ZYUQnfWWy9yUf5dKOw9SzaOTLzJRkav7 " alt="Image 15"></a>
+    </div>
+<div class="gallery-itemm">
+        <a href=" https://amzn.to/3v4Cfzb"><img src="https://drive.google.com/uc?id=1ZWyhXYFu5PEGfPXOjHoFr7FmMWJ-FEBq " alt="Image 16"></a>
+    </div>
+<div class="gallery-itemm">
+        <a href="https://amzn.to/48cPbkU "><img src="https://drive.google.com/uc?id=1ZTT6u1cI53WEmsP2uWARf36EIiHC51uA" alt="Image 17"></a>
+    </div>
+<div class="gallery-itemm">
+        <a href=" https://amzn.to/3RpoP8j"><img src="https://drive.google.com/uc?id=1ZQjCCl49W_WErneCfKM33gFGP-5PfFyj " alt="Image 18"></a>
+    </div>
+<div class="gallery-itemm">
+        <a href="https://amzn.to/3GLoGXP "><img src="https://drive.google.com/uc?id=1Z4ngZbF4EDyfD5BkWYDM0i78Sg2JfvK-" alt="Image 19"></a>
+    </div>
+<div class="gallery-itemm">
+        <a href="https://amzn.to/3GNE7yG"><img src="https://drive.google.com/uc?id=1YzRsar5c6v2C1syeKDEFKUHci8ysH5Et " alt="Image 20"></a>
+    </div>
+<div class="gallery-itemm">
+        <a href="https://amzn.to/3RsnHkh"><img src="https://drive.google.com/uc?id=1ZBg0Yo3y8bXodIhYUqnwDtkiMFbrrwB-" alt="Image 21"></a>
+    </div>
+<div class="gallery-itemm">
+        <a href="https://amzn.to/3H66s3H "><img src="https://drive.google.com/uc?id=1YrOZmA4YIeRSiiA6qlvE4Xm6tkl9vtrZ " alt="Image 22"></a>
+    </div>
+</div>
+        
+      <!-- Repeat for the remaining images -->
+      </div>
+     
+    
+   
+  
+  
+     <div class="main-div">
+       <output id="outputValue" class="text3D"></output>
+        
+         <p class="a" id="p1">की आर से</p>
+         <p id="a" class="a">Wishing You</p>
+         
+         <p id="pf"class="a"><b>नए वर्ष में नई पहल हो<br>
+            <span id="s2">कठिन जिंदगी और सरल हो</span><br>
+           नए वर्ष का उगता सूरज<br>
+           <span id="s4">सबके लिए सुनहरा पल हो</span></b></p>
+            <p id="H1" class="a">Happy New year<br> 2024</p>
+         <div class ="a"id="timer">ONLY <span id="days"></span> LEFT</div>
+     </div>
+<br>
+<br>
+       <input type="text" required id="inputValue" placeholder="  Write Your Name Here">
+    
+       <button onclick="saveValue();sharePage()"><img src="https://drive.google.com/uc?id=1bhCVXDIac8GnCwyI9QxurWWh0dLWJnfw" alt="share" width="30" height="19">
+       </button>
+       
+ <br>
+ <br>
+ <br>
+ <br>      
+
+
+
+
+       <!-- Bottom Banner Ad -->
+      <!-- <div id="bottomBanner">
+       <p>Bottom Banner Ad Content</p>
+       </div>-->
+<div class="gallery-container" id="auto-scroll-container">
+
+ <div class="gallery-item">
+        <a href="https://amzn.to/3RKVFSr "><img src="https://drive.google.com/uc?id=1__u4ZEN3rXdLRRlUPgdxsMmn7YR7-0-v" alt="Image 1"></a>
+    </div>
+<div class="gallery-item">
+        <a href=" https://amzn.to/41pnzqi"><img src="https://drive.google.com/uc?id=1_a15OeaLsCpxTsbJXYl25iRkvzFuVyOW" alt="Image 2"></a>
+    </div>
+<div class="gallery-item">
+        <a href=" https://amzn.to/3ts90ph"><img src="https://drive.google.com/uc?id=1__sJ2GLyMAV9ADVoNc6NaYCN9lHi7-Ii " alt="Image 3"></a>
+    </div>
+<div class="gallery-item">
+        <a href=" https://amzn.to/41y8ov1"><img src="https://drive.google.com/uc?id=1_ZokGDL7V6WIhQQjTKQoKyDSs3SU8VcJ" alt="Image 4"></a>
+    </div>
+<div class="gallery-item">
+        <a href="https://amzn.to/3Rlp44e "><img src="https://drive.google.com/uc?id=1_Yn3kWnqvvb5od_tHw9x6u2zCjevTnBf " alt="Image 5"></a>
+    </div>
+<div class="gallery-item">
+        <a href="https://amzn.to/3RpFSqS "><img src="https://drive.google.com/uc?id=1_XeCvAtTcbsCS2U1J0GCf2v3NHTS5CPg " alt="Image 6"></a>
+    </div>
+<div class="gallery-item">
+        <a href="https://amzn.to/3TnWKAU "><img src="https://drive.google.com/uc?id=1_MKwN-0HZfAiT_oKiS9_Zhn-vFwToGPY " alt="Image 7"></a>
+    </div>
+<div class="gallery-item">
+        <a href=" https://amzn.to/3GKAfOT"><img src="https://drive.google.com/uc?id=1_Ehs_BTcFNbZuAuh011Kbu4Q4jBCL_DX " alt="Image 8"></a>
+    </div>
+<div class="gallery-item">
+        <a href="https://amzn.to/48nl0HM "><img src="https://drive.google.com/uc?id=1_CWXeesC_clOYPmTwhUU4qnZvRcMO1xu " alt="Image 9"></a>
+    </div>
+<div class="gallery-item">
+        <a href="https://amzn.to/3v3iQi2"><img src="https://drive.google.com/uc?id=1_A3Oode9GCQ4_QuT0r_dqAcmGqq6PEea " alt="Image 10"></a>
+    </div>
+<div class="gallery-item">
+        <a href="https://amzn.to/3GMoNT1 "><img src="https://drive.google.com/uc?id=1_3KUQPWBnMZB-NflcP85EkpE64M0klxA " alt="Image 11"></a>
+    </div>
+<div class="gallery-item">
+        <a href="https://amzn.to/3H68QYd"><img src="https://drive.google.com/uc?id=1Yr989g1rFsLvggXG_9FDODnIUdbzidWl" alt="Image 12"></a>
+    </div>
+<div class="gallery-item">
+        <a href="https://amzn.to/473BXFO "><img src="https://drive.google.com/uc?id=1Zhd0Xb_bN2Yk_kXBGS0sJ2IBZPmUw1xc " alt="Image 13"></a>
+    </div>
+<div class="gallery-item">
+        <a href="https://amzn.to/46Wz0XG "><img src="https://drive.google.com/uc?id=1ZZZSkdMcXX4eRgILaSr4VhlReMPB9qwj " alt="Image 14"></a>
+    </div>
+<div class="gallery-item">
+        <a href=" https://amzn.to/41tA58s"><img src="https://drive.google.com/uc?id=1ZYUQnfWWy9yUf5dKOw9SzaOTLzJRkav7 " alt="Image 15"></a>
+    </div>
+<div class="gallery-item">
+        <a href=" https://amzn.to/3v4Cfzb"><img src="https://drive.google.com/uc?id=1ZWyhXYFu5PEGfPXOjHoFr7FmMWJ-FEBq " alt="Image 16"></a>
+    </div>
+<div class="gallery-item">
+        <a href="https://amzn.to/48cPbkU "><img src="https://drive.google.com/uc?id=1ZTT6u1cI53WEmsP2uWARf36EIiHC51uA" alt="Image 17"></a>
+    </div>
+<div class="gallery-item">
+        <a href=" https://amzn.to/3RpoP8j"><img src="https://drive.google.com/uc?id=1ZQjCCl49W_WErneCfKM33gFGP-5PfFyj " alt="Image 18"></a>
+    </div>
+<div class="gallery-item">
+        <a href="https://amzn.to/3GLoGXP "><img src="https://drive.google.com/uc?id=1Z4ngZbF4EDyfD5BkWYDM0i78Sg2JfvK-" alt="Image 19"></a>
+    </div>
+<div class="gallery-item">
+        <a href="https://amzn.to/3GNE7yG"><img src="https://drive.google.com/uc?id=1YzRsar5c6v2C1syeKDEFKUHci8ysH5Et " alt="Image 20"></a>
+    </div>
+<div class="gallery-item">
+        <a href="https://amzn.to/3RsnHkh"><img src="https://drive.google.com/uc?id=1ZBg0Yo3y8bXodIhYUqnwDtkiMFbrrwB-" alt="Image 21"></a>
+    </div>
+<div class="gallery-item">
+        <a href="https://amzn.to/3H66s3H "><img src="https://drive.google.com/uc?id=1YrOZmA4YIeRSiiA6qlvE4Xm6tkl9vtrZ " alt="Image 22"></a>
+    </div>
+</div>
+        
+    <!-- Repeat for the remaining images -->
+</div>
+
+
+  </div>
+    <div id="animation-container">
+  <script>
+  
+  // Function to save the value permanently
+  function saveValue() {
+  const inputValue = document.getElementById("inputValue").value;
+  localStorage.setItem("savedValue", inputValue);
+  displaySavedValue();
+  }
+  
+  // Function to display the saved value
+  function displaySavedValue() {
+  const savedValue = localStorage.getItem("savedValue");
+  const outputValue = document.getElementById("outputValue");
+  outputValue.textContent = savedValue || "Write Your Name ?";
+  }
+  
+  // Display the saved value on page load
+  displaySavedValue();
+  
+  
+  
+  // Connect input to output
+  document.getElementById('inputValue').addEventListener('input', function() {
+  // Update output with the input value
+  document.getElementById('outputValue').textContent = this.value;
+  });
+  
+  
+  
+  //other functions
+  
+  function sharePage() {
+  // Get the current page URL
+  var currentPageUrl = window.location.href;
+  
+  // Check if the browser supports the Web Share API
+  if (navigator.share) {
+  navigator.share({
+  title: document.title,
+  url: currentPageUrl
+  })
+  .then(() => console.log('Shared successfully'))
+  .catch((error) => console.error('Error sharing:', error));
+  } else {
+  // Fallback for browsers that do not support the Web Share API
+  alert('Copy the URL below to share:\n\n' + currentPageUrl);
+  }
+  }
+  
+  
+  // Set the target date and time
+  var targetDate = new Date('2024-01-01T00:00:00').getTime();
+  
+  function updateTimer() {
+  var currentDate = new Date().getTime();
+  var timeDifference = targetDate - currentDate;
+  
+  if (timeDifference > 0) {
+  var days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
+  
+  // Add leading zero if needed
+  hours = hours < 10 ? "0" + hours : hours;
+  minutes = minutes < 10 ? "0" + minutes : minutes;
+  seconds = seconds < 10 ? "0" + seconds : seconds;
+  
+  document.getElementById("days").innerText = days + "d " + hours + "h " + minutes + "m " + seconds + "s";
+  } else {
+  clearInterval(timerInterval);
+  document.getElementById("days").innerText = "Time's up!";
+  }
+  }
+  
+  // Call updateTimer function every second
+  var timerInterval = setInterval(updateTimer, 1000);
+ 
+
+
+
+const galleryContainer = document.getElementById('auto-scroll-container');
+
+    function autoScroll() {
+        const scrollWidth = galleryContainer.scrollWidth - galleryContainer.clientWidth;
+
+        if (galleryContainer.scrollLeft < scrollWidth) {
+            galleryContainer.scrollLeft += 2; // Adjust the scroll speed as needed
+        } else {
+            galleryContainer.scrollLeft = 0;
+        }
+    }
+
+    setInterval(autoScroll, 50); // Adjust the interval as needed (50 milliseconds in this example)
+
+
+
+
+const galleryContainerr = document.getElementById('auto-scroll-containerr');
+
+    function autoScroll2() {
+        const scrollWidth = galleryContainerr.scrollWidth - galleryContainerr.clientWidth;
+
+        if (galleryContainerr.scrollLeft < scrollWidth) {
+            galleryContainerr.scrollLeft += 2; // Adjust the scroll speed as needed
+        } else {
+            galleryContainerr.scrollLeft = 0;
+        }
+    }
+
+    setInterval(autoScroll2, 50); // Adjust the interval as needed (50 milliseconds in this example)
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  function createRandomCircle() {
+        const circle = document.createElement('div');
+        circle.classList.add('circle');
+        circle.style.width = `${Math.floor(Math.random() * 20) + 20}px`;
+        circle.style.height = circle.style.width;
+        circle.style.top = `${Math.random() * (window.innerHeight - 50)}px`;
+        circle.style.left = `${Math.random() * (window.innerWidth - 50)}px`;
+        circle.style.background = getRandomColor();
+        document.getElementById('animation-container').appendChild(circle);
+      }
+
+      function getRandomColor() {
+        const letters = '0123456789ABCDEF';
+        let color = '#';
+        for (let i = 0; i < 6; i++) {
+          color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+      }
+
+      setInterval(createRandomCircle, 500); // Create a new circle every 2 seconds
+  </script>
+</body>
+</html>
